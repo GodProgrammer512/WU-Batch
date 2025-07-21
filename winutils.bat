@@ -38,9 +38,13 @@ goto end
 
 :option1_case1
 shutdown /s /f /t 15 /c "Your computer will shutdown in 15 seconds."
+endlocal
+exit(0)
 
 :option1_case2
 shutdown /r /fw /t 15 /c "Your computer will restart in 15 seconds to open the BIOS/UEFI."
+endlocal
+exit(0)
 
 :option1_case3
 start cmd
