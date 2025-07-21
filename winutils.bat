@@ -11,7 +11,7 @@ rem First loop:
 :loop1
 cls
 echo.=========================================
-echo.========= Windows Utilities 2.0 =========
+echo.========= Windows Utilities 2.1 =========
 echo.=========================================
 echo.     [ 0 ] Exit...
 echo.     [ 1 ] Shutdown Windows
